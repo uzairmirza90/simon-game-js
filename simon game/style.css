@@ -1,0 +1,46 @@
+body {
+    background-color: #011F3F;
+}
+
+h1 {
+    color: #FEF2BF;
+    font-family: "Press Start 2P", cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    width: 13%;
+    height: 170px;
+    border: 10px solid black;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.buttons1{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.buttons2{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+@media screen and (max-width: 600px){
+    button{
+        width: 20%;
+        height: 70px;
+    }
+}
+
+.wrong{
+    background-color: red;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
